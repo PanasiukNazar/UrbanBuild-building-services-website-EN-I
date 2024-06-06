@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>UrbanBuild</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-grow text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+            >
+                <h1 class="m-0 text-primary">UrbanBuild</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <a href="#team" class="nav-item nav-link">Team</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-primary p-0 mb-5">
+            <div
+                class="row g-0 align-items-center flex-column-reverse flex-lg-row"
+            >
+                <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-4 text-white mb-5">
+                        Get to know our construction services better
+                    </h1>
+                    <div class="row g-4">
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    45
+                                </h2>
+                                <p class="text-light mb-0">Expert builders</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    21
+                                </h2>
+                                <p class="text-light mb-0">Projects Done</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    214
+                                </h2>
+                                <p class="text-light mb-0">Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-1.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Comprehensive Building Maintenance
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-2.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Innovative Construction Solutions
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-3.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Sustainable Building Practices
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex flex-column">
+                            <img
+                                class="img-fluid rounded w-75 align-self-end"
+                                src="img/about-1.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid rounded w-50 bg-white pt-3 pe-3"
+                                src="img/about-2.jpg"
+                                alt=""
+                                style="margin-top: -25%"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <p class="d-inline-block border rounded-pill py-1 px-4">
+                            About Us
+                        </p>
+                        <h1 class="mb-4">
+                            Why You Should Trust Us? Get Know About Us!
+                        </h1>
+                        <p>
+                            Welcome to your trusted partner in building
+                            services. We specialize in delivering top-notch
+                            solutions for all your construction, maintenance,
+                            and renovation needs.
+                        </p>
+                        <p class="mb-4">
+                            With a team of highly skilled professionals and a
+                            commitment to excellence, we ensure that every
+                            project we undertake is completed to the highest
+                            standards. Our mission is to provide reliable,
+                            efficient, and innovative building services that
+                            exceed our clients' expectations. From the initial
+                            consultation to the final inspection, we are
+                            dedicated to delivering superior quality and
+                            exceptional customer service.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Expertise and Experience
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Customer-Centric Approach
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Sustainable Practices
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Services
+                    </p>
+                    <h1>
+                        We offer a full spectrum of building services, including
+                        construction, renovation, maintenance, and repairs.
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-coins text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">New Construction</h4>
+                            <p class="mb-4">
+                                From concept to completion, we manage every
+                                aspect of your new construction projects. Our
+                                team ensures meticulous planning, quality
+                                materials, and expert execution to create
+                                durable and aesthetically pleasing structures.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-chart-line text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Renovations and Remodeling</h4>
+                            <p class="mb-4">
+                                Transform your existing spaces with our
+                                comprehensive renovation and remodeling
+                                services. Whether updating a single room or
+                                overhauling an entire building, we provide
+                                creative solutions that enhance functionality
+                                and style.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-comments-dollar text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Maintenance and Repairs</h4>
+                            <p class="mb-4">
+                                Our asset management service provides Keep your
+                                property in top condition with our reliable
+                                maintenance and repair services. We address
+                                routine upkeep as well as unexpected issues,
+                                ensuring your building remains safe, functional,
+                                and attractive.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-file-invoice-dollar text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">
+                                Electrical and Plumbing Services
+                            </h4>
+                            <p class="mb-4">
+                                Our skilled technicians handle all your
+                                electrical and plumbing needs with precision and
+                                care. From installations and upgrades to repairs
+                                and maintenance, we ensure your systems run
+                                smoothly and efficiently.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-seedling text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Interior and Exterior Painting</h4>
+                            <p class="mb-4">
+                                Refresh and protect your property with our
+                                professional painting services. We offer
+                                interior and exterior painting solutions that
+                                provide a flawless finish and long-lasting
+                                results, enhancing the appearance and value of
+                                your building.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-layer-group text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Sustainable Building Solutions</h4>
+                            <p class="mb-4">
+                                Embrace eco-friendly building practices with our
+                                sustainable solutions. We utilize green
+                                technologies and materials to create
+                                energy-efficient, environmentally responsible
+                                spaces that contribute to a healthier planet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <p
+                                class="d-inline-block border rounded-pill text-light py-1 px-4"
+                            >
+                                Features
+                            </p>
+                            <h1 class="text-white mb-4">Why Choose Us</h1>
+                            <p class="text-white mb-4 pb-2">
+                                Choosing us means embarking on a journey with a
+                                trusted partner renowned for its unwavering
+                                dedication to excellence in building services.
+                                Our team of seasoned professionals, equipped
+                                with a wealth of industry knowledge and hands-on
+                                experience, stands ready to bring your vision to
+                                life with precision and care. We pride ourselves
+                                on our meticulous attention to detail, ensuring
+                                that every aspect of your project receives the
+                                utmost scrutiny and consideration. Our
+                                commitment to quality craftsmanship is second to
+                                none, as we meticulously select the finest
+                                materials and employ time-tested techniques to
+                                deliver results that not only meet but exceed
+                                your expectations. What sets us apart is our
+                                deeply ingrained belief in personalized
+                                service—we understand that every project is
+                                unique, and we tailor our approach to suit your
+                                specific needs and preferences. From the initial
+                                consultation to the final inspection, we work
+                                closely with you every step of the way, ensuring
+                                clear communication and transparency throughout
+                                the entire process. But our dedication doesn't
+                                stop there.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 pe-lg-0 wow fadeIn"
+                        data-wow-delay="0.5s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Team Start -->
+        <div id="team" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Team
+                    </p>
+                    <h1>Our Experience Team</h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Michael Thompson</h5>
+                                <p class="text-primary">Project Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Sarah Rodriguez</h5>
+                                <p class="text-primary">Lead Architect</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Anna Jacker</h5>
+                                <p class="text-primary">Construction Foreman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Emily Scott</h5>
+                                <p class="text-primary">Project Coordinator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Testimonial
+                    </p>
+                    <h1>What Say Our Clents!</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-1.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                The building services provided were exceptional.
+                                The team demonstrated great expertise and
+                                professionalism throughout the project. They
+                                listened to our needs attentively and delivered
+                                results that exceeded our expectations. Highly
+                                recommended!
+                            </p>
+                            <h5 class="mb-1">Sarah T</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-2.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                We were thoroughly impressed with the quality of
+                                workmanship and attention to detail displayed by
+                                the building services team. From the initial
+                                planning stages to the final touches, they
+                                ensured everything ran smoothly and efficiently.
+                                Our project was completed on time and within
+                                budget. Couldn't be happier!
+                            </p>
+                            <h5 class="mb-1">John R.</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-3.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                Choosing this building services provider was a
+                                wise decision. They were responsive, reliable,
+                                and dedicated to delivering excellence. The
+                                finished project speaks volumes about their
+                                commitment to quality and customer satisfaction.
+                                We're thrilled with the results and would
+                                definitely work with them again.
+                            </p>
+                            <h5 class="mb-1">Michael S.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div id="contact" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i
+                                    class="fa fa-map-marker-alt text-primary"
+                                ></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Address</p>
+                                <h5 class="mb-0">
+                                    Frog Island, Creek Way, Rainham RM13 8EN, UK
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i class="fa fa-phone-alt text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Call Us Now</p>
+                                <h5 class="mb-0">+441708634540</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i class="fa fa-envelope-open text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Mail Us Now</p>
+                                <h5
+                                    style="
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        max-width: 150px;
+                                    "
+                                    class="mb-0"
+                                >
+                                    urban_build@gmail.com
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-light rounded p-5">
+                            <p
+                                class="d-inline-block border rounded-pill py-1 px-4"
+                            >
+                                Contact Us
+                            </p>
+                            <h1 class="mb-4">
+                                Have Any Query? Please Contact Us!
+                            </h1>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="name"
+                                                placeholder="Your Name"
+                                            />
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="email"
+                                                placeholder="Your Email"
+                                            />
+                                            <label for="email"
+                                                >Your Email</label
+                                            >
+                                            <div
+                                                id="result"
+                                                style="color: red"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="subject"
+                                                placeholder="Subject"
+                                            />
+                                            <label for="subject">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Leave a message here"
+                                                id="message"
+                                                style="height: 100px"
+                                            ></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Send Message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="h-100" style="min-height: 400px">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6628.162343527271!2d0.15234939660485322!3d51.517709968076396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aff123b30d23%3A0x9301e87848ccaaa9!2sRenewi!5e0!3m2!1suk!2sua!4v1717664386332!5m2!1suk!2sua"
+                                class="rounded w-100 h-100"
+                                frameborder="0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">UrbanBuild</h5>
+                        <p>
+                            Stay connected with us and explore more about our
+                            building services.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Address</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>Frog
+                            Island, Creek Way, Rainham RM13 8EN, UK
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+441708634540
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >urban_build@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Quick Links</h5>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms & Condition</a
+                        >
+                        <a class="btn btn-link" href="return-policy.html"
+                            >Return policy</a
+                        >
+                        <a class="btn btn-link" href="disclaimer.html"
+                            >Disclaimer</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
